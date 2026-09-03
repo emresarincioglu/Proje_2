@@ -1,0 +1,54 @@
+body {
+    width: 280px;
+    margin: 0;
+    font: 14px/1.45 system-ui, sans-serif;
+    color: #17212b;
+}
+
+main {
+    padding: 16px;
+}
+
+h1 {
+    font-size: 17px;
+    margin: 0 0 8px;
+}
+
+p {
+    color: #4b5563;
+    font-size: 12px;
+    margin: 0 0 14px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    margin: 0 0 16px;
+}
+
+dt,
+dd {
+    margin: 0;
+}
+
+dd {
+    font-weight: 600;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #b7c3d0;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f3f6f8;
+}
+
+button + button {
+    margin-top: 8px;
+}

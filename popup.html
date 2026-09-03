@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="popup.css">
+  <title>Password Anomaly Detector</title>
+</head>
+
+<body>
+  <main>
+    <h1>Password Anomaly Detector</h1>
+    <p>Şifre, karakter, tuş adı, tam parola uzunluğu ve ziyaret edilen site kaydedilmez. Veriler yalnızca bu tarayıcıda
+      tutulur.</p>
+    <dl id="stats">
+      <dt>Yükleniyor…</dt>
+    </dl>
+    <button id="import" type="button">Oturumları içe aktar</button>
+    <button id="export" type="button">Oturumları dışa aktar</button>
+    <button id="clear" type="button">Yerel verileri sil</button>
+    <input type="file" id="import-file" accept="application/json" style="display: none;">
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+
+</html>
